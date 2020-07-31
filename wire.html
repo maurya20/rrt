@@ -51,7 +51,7 @@
   </nav>
 
   <div class="container">
-  <h2>Wire Range Gallery</h2>
+  <h2>Wire Range Gallery</h2><input id="myInput" type="text" placeholder="Search..">
   
   <div class="row">
     <div class="col-md-4">
@@ -149,6 +149,25 @@
 <div class="jumbotron text-center" style="margin-bottom:0">
    <p>RR Traders, Azamgarh-276001, Mob-9540339805</p>
   </div>
+
+
+
+
+
+
+<script>
+$(document).ready(function(){
+  $("#myInput").on("keyup", function() {
+    var value = $(this).val().toLowerCase();
+    $(".col-md-4*").filter(function() {
+      $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+    });
+  });
+});
+</script>
+
+
+
 </body>
 
 </html>
