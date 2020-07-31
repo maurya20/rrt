@@ -24,12 +24,6 @@
         <li class="nav-item active">
           <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link"
-            href="https://api.whatsapp.com/send?phone=919540339805&text=&source=&data=&app_absent="><img
-              src="images/what.png" style="width: 80px;height:50px;"></a>
-        </li>
-
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
             aria-haspopup="true" aria-expanded="false">
@@ -47,108 +41,116 @@
           <a class="nav-link" href="ser.html">Services</a>
         </li>
         <li class="nav-item"><a class="nav-link" href="cnt.html">Contact Us</a></li>
+        <li class="nav-item">
+          <a class="nav-link"
+            href="https://api.whatsapp.com/send?phone=919540339805&text=&source=&data=&app_absent="><img
+              src="images/what.png" style="width: 80px;height:50px;"></a>
+        </li>
       </ul>
     </div>
   </nav>
 
   <div class="container">
-  <h2>Appliance Range Gallery</h2><input id="myInput" type="text" placeholder="Search..">
-  
-  <div class="row">
-    <div class="col-md-4">
-      <div class="thumbnail">
-        
+    <div style="height: 120px; ">
+      <h2 style="display: inline">Appliance Range Gallery</h2>
+      <input id="myInput" type="text" placeholder="Search.." style="display: inline; float: right; margin-top: 10px;">
+    </div>
+
+    <div class="row">
+      <div class="col-md-4">
+        <div class="thumbnail">
+
           <img src="images/a1.jpg" alt="Lights" style="width:100%">
           <div class="caption">
             <p>Celling Fan</p>
           </div>
+        </div>
       </div>
-    </div>
- 
-    <div class="col-md-4">
-      <div class="thumbnail">
-        
+
+      <div class="col-md-4">
+        <div class="thumbnail">
+
           <img src="images/a3.jpg" alt="Nature" style="width:100%">
           <div class="caption">
             <p>Celling Fan</p>
           </div>
-        
+
+        </div>
       </div>
-    </div>
-    <div class="col-md-4">
-      <div class="thumbnail">
+      <div class="col-md-4">
+        <div class="thumbnail">
           <img src="images/a9.jpg" alt="Fjords" style="width:100%">
           <div class="caption">
             <p>Fan Range</p>
           </div>
+        </div>
       </div>
-    </div>
 
-<div class="col-md-4">
-      <div class="thumbnail">
-        
+      <div class="col-md-4">
+        <div class="thumbnail">
+
           <img src="images/a4.jpg" alt="Lights" style="width:100%">
           <div class="caption">
             <p>Exhast Fan</p>
           </div>
+        </div>
       </div>
-    </div>
-<div class="col-md-4">
-      <div class="thumbnail">
-        
+      <div class="col-md-4">
+        <div class="thumbnail">
+
           <img src="images/a5.jpg" alt="Lights" style="width:100%">
           <div class="caption">
             <p>Geyser</p>
           </div>
+        </div>
       </div>
-    </div>
 
-    <div class="col-md-4">
-      <div class="thumbnail">
-        
+      <div class="col-md-4">
+        <div class="thumbnail">
+
           <img src="images/a6.jpg" alt="Lights" style="width:100%">
           <div class="caption">
             <p>Iron</p>
           </div>
+        </div>
       </div>
-    </div>
 
 
-<div class="col-md-4">
-      <div class="thumbnail">
-        
+      <div class="col-md-4">
+        <div class="thumbnail">
+
           <img src="images/a7.jpg" alt="Lights" style="width:100%">
           <div class="caption">
             <p>Room Heater</p>
           </div>
+        </div>
       </div>
-    </div>
 
-    <div class="col-md-4">
-      <div class="thumbnail">
-        
+      <div class="col-md-4">
+        <div class="thumbnail">
+
           <img src="images/a8.jpg" alt="Lights" style="width:100%">
           <div class="caption">
             <p>Immersion Rod</p>
           </div>
+        </div>
       </div>
-    </div>
 
-<div class="col-md-4">
-      <div class="thumbnail">
-        
+      <div class="col-md-4">
+        <div class="thumbnail">
+
           <img src="images/a2.jpg" alt="Lights" style="width:100%">
           <div class="caption">
             <p>Door Bell</p>
           </div>
+        </div>
       </div>
     </div>
   </div>
-</div>
 
 
-<div class="jumbotron text-center" style="margin-bottom:0">
-   <p>RR Traders, Azamgarh-276001, Mob-9540339805</p>
+  <div class="jumbotron text-center" style="margin-bottom:0">
+    <p>RR Traders, Azamgarh-276001, Mob-9540339805</p>
   </div>
 
 
@@ -156,16 +158,16 @@
 
 
 
-<script>
-$(document).ready(function(){
-  $("#myInput").on("keyup", function() {
-    var value = $(this).val().toLowerCase();
-    $(".col-md-4*").filter(function() {
-      $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+  <script>
+    $(document).ready(function () {
+      $("#myInput").on("keyup", function () {
+        var value = $(this).val().toLowerCase();
+        $(".col-md-4*").filter(function () {
+          $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+        });
+      });
     });
-  });
-});
-</script>
+  </script>
 
 
 
