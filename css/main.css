@@ -1,19 +1,20 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 .category {
-    background-color: rgb(32, 34, 151) !important;
+  background-color: rgb(32, 34, 151) !important;
 }
 
-.category h2, #myInput {
-    display: inline;
+.category h2,
+#myInput {
+  display: inline;
 }
 
 
 @media only screen and (max-width: 600px) {
-    body {
-      background-color: lightblue;
-    }
+  body {
+    background-color: lightblue;
   }
+}
